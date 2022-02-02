@@ -4,8 +4,9 @@
   "block.romod.dark_iron_bars": "Dark Iron Bars",
 
   "item.romod.dark_iron_ingot": "Dark Iron Ingot",
-  "item.romod.netherite_dust": "Netherite Dust",
+  "item.romod.netherite_scrap_dust": "Netherite Scrap Dust",
   "item.romod.uncooked_dark_iron_dust": "Uncooked Dark Iron Dust",
+  "item.romod.uncooked_netherite_dust": "Uncooked Netherite Dust",
 
   "itemGroup.romod.rogroup": "Fabric Reinforced Obsidian"
 }

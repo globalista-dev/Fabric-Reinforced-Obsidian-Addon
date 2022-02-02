@@ -4,8 +4,9 @@
   "block.romod.dark_iron_bars": "Grades de ferro negro",
 
   "item.romod.dark_iron_ingot": "Barra de ferro negro",
-  "item.romod.netherite_dust": "Pó de netherita",
+  "item.romod.netherite_scrap_dust": "Pó de fragmentos de netherita",
   "item.romod.uncooked_dark_iron_dust": "Pó cru de ferro negro",
+  "item.romod.uncooked_netherite_dust": "Pó cru de netherita",
 
   "itemGroup.romod.rogroup": "Obsidiana reforçada para Fabric"
 }

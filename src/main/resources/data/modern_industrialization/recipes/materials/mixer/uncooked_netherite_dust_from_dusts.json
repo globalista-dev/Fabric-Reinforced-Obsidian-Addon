@@ -3,16 +3,16 @@
   "eu": 2,
   "duration": 100,
   "item_inputs": [{
-    "tag": "c:iron_dusts",
-    "amount": 3
+    "tag": "c:gold_dusts",
+    "amount": 2
   },
     {
       "item": "romod:netherite_scrap_dust",
-      "amount": 1
+      "amount": 2
     }
   ],
   "item_outputs": {
-    "item": "romod:uncooked_dark_iron_dust",
-    "amount": 9
+    "item": "romod:uncooked_netherite_dust",
+    "amount": 1
   }
 }
