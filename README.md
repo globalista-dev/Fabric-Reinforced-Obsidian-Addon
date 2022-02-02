@@ -1,4 +1,6 @@
-# Fabric Reinforced Obsidian
+# Fabric Reinforced Obsidian (Addon)
+
+This version is a Modern Industrialization addon
 
 This mod adds a block called reinforced obsidian, that can't be broken by the Wither. Thus, it allows the player to build a safe Wither cage with as little as 6 blocks. It also adds dark iron blocks, ingots and bars used to create the reinforced obsidian
 
