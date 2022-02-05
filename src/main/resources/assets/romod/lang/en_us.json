@@ -1,12 +1,12 @@
 {
   "block.romod.reinforced_obsidian": "Reinforced Obsidian",
+  "block.romod.reinforced_obsidian_slab": "Reinforced Obsidian Slab",
+  "block.romod.reinforced_obsidian_stairs": "Reinforced Obsidian Stairs",
+  "block.romod.reinforced_obsidian_wall": "Reinforced Obsidian Wall",
   "block.romod.dark_iron_block": "Dark Iron Block",
   "block.romod.dark_iron_bars": "Dark Iron Bars",
 
   "item.romod.dark_iron_ingot": "Dark Iron Ingot",
-  "item.romod.netherite_scrap_dust": "Netherite Scrap Dust",
-  "item.romod.uncooked_dark_iron_dust": "Uncooked Dark Iron Dust",
-  "item.romod.uncooked_netherite_dust": "Uncooked Netherite Dust",
 
   "itemGroup.romod.rogroup": "Fabric Reinforced Obsidian"
 }

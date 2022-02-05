@@ -1,7 +1,6 @@
 package com.globalista.romod;
 
 import com.globalista.romod.block.ModBlocks;
-import com.globalista.romod.block.ModPaneBlocks;
 import com.globalista.romod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -24,7 +23,6 @@ public class RoMod implements ModInitializer {
 
 		ModBlocks.callBlocks();
 		ModItems.callItems();
-		ModPaneBlocks.callPaneBlocks();
 
 		LOGGER.info("Fabric Reinforced Obsidian!");
 	}
