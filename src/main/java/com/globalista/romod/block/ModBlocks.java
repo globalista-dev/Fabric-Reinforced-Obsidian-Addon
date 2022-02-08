@@ -3,10 +3,7 @@ package com.globalista.romod.block;
 import com.globalista.romod.RoMod;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.WallBlock;
+import net.minecraft.block.*;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.sound.BlockSoundGroup;
 
@@ -16,6 +13,8 @@ public class ModBlocks {
 
     public static void callBlocks() {
         BlockRenderLayerMap.INSTANCE.putBlock(DARK_IRON_BARS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_TINTED_GLASS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_GLASS, RenderLayer.getTranslucent());
         System.out.println("Registering RoMod blocks");
     }
 
@@ -36,5 +35,14 @@ public class ModBlocks {
 
     public static final Block DARK_IRON_BARS = registerBlock("dark_iron_bars",
             new ModPaneBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f, 92.8f).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)), RoMod.ROGROUP);
+
+    public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
+            new GlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
+
+    public static final Block REINFORCED_TINTED_GLASS = registerBlock("reinforced_tinted_glass",
+            new TintedGlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
+
+    public static final Block UNCOOKED_REINFORCED_SAND = registerBlock("uncooked_reinforced_sand",
+            new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(8.5f,120.0f).breakByHand(true).sounds(BlockSoundGroup.SAND)), RoMod.ROGROUP);
 
 }

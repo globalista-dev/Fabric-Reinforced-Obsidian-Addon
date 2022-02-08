@@ -23,4 +23,8 @@ public class ModItems {
 
     public static final Item UNCOOKED_DARK_IRON_DUST = registerItem("uncooked_dark_iron_dust",
             new Item(new FabricItemSettings().group(RoMod.ROGROUP)));
+
+    public static final Item OBSIDIAN_DUST = registerItem("obsidian_dust",
+            new Item(new FabricItemSettings().group(RoMod.ROGROUP)));
+
 }

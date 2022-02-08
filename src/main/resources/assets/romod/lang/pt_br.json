@@ -1,12 +1,19 @@
 {
   "block.romod.reinforced_obsidian": "Obsidiana reforçada",
   "block.romod.reinforced_obsidian_slab": "Laje de obsidiana reforçada",
+  "block.romod.reinforced_glass": "Vidro reforçado",
+  "block.romod.reinforced_tinted_glass": "Vidro fosco reforçado",
   "block.romod.reinforced_obsidian_stairs": "Escadas de obsidiana reforçada",
   "block.romod.reinforced_obsidian_wall": "Parede de obsidiana reforçada",
   "block.romod.dark_iron_block": "Bloco de ferro negro",
   "block.romod.dark_iron_bars": "Grades de ferro negro",
+  "block.romod.uncooked_reinforced_sand": "Areia reforçada crua",
 
   "item.romod.dark_iron_ingot": "Barra de ferro negro",
+  "item.romod.netherite_scrap_dust": "Pó de fragmento de netherita",
+  "item.romod.uncooked_netherite_dust": "Pó cru de netherita",
+  "item.romod.uncooked_dark_iron_dust": "Pó cru de ferro negro",
+  "item.romod.obsidian_dust": "Pó de obsidiana",
 
   "itemGroup.romod.rogroup": "Obsidiana reforçada para Fabric"
 }
