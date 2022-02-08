@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "romod:reinforced_obsidian"
-  },
-  "result": "romod:reinforced_obsidian_slab",
-  "count": 2
-}
