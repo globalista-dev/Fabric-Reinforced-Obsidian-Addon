@@ -1,0 +1,19 @@
+{
+  "type": "modern_industrialization:implosion_compressor",
+  "eu": 1,
+  "duration": 10,
+  "item_inputs": [
+    {
+      "item": "romod:obsidian_dust",
+      "amount": 1
+    },
+    {
+      "item": "modern_industrialization:industrial_tnt",
+      "amount": 1
+    }
+  ],
+  "item_outputs": {
+    "item": "minecraft:obsidian",
+    "amount": 1
+  }
+}

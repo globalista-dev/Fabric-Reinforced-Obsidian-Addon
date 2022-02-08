@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "IOI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "romod:uncooked_dark_iron_dust"
+        },
+        "I": {
+            "item": "minecraft:sand"
+        },
+        "O": {
+            "item": "romod:obsidian_dust"
+        }
+    },
+    "result": {
+        "item": "romod:uncooked_reinforced_sand",
+        "count": 1
+    }
+}
