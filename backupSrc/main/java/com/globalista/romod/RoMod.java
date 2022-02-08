@@ -2,11 +2,9 @@ package com.globalista.romod;
 
 import com.globalista.romod.block.ModBlocks;
 import com.globalista.romod.item.ModItems;
-import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -30,11 +28,9 @@ public class RoMod implements ModInitializer {
 		ModBlocks.callBlocks();
 		ModItems.callItems();
 
-		if(FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
-			BlockRenderLayerMap.INSTANCE.putBlock(DARK_IRON_BARS, RenderLayer.getCutout());
-			BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_TINTED_GLASS, RenderLayer.getTranslucent());
-			BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_GLASS, RenderLayer.getTranslucent());
-		}
+		BlockRenderLayerMap.INSTANCE.putBlock(DARK_IRON_BARS, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_TINTED_GLASS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(REINFORCED_GLASS, RenderLayer.getTranslucent());
 
 		LOGGER.info("Fabric Reinforced Obsidian!");
 	}

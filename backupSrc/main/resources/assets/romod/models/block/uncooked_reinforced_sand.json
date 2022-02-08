@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "romod:block/uncooked_reinforced_sand"
+  }
+}

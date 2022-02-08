@@ -1,0 +1,22 @@
+{
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "minecraft:obsidian",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "romod:obsidian_dust",
+      "amount": 1
+    },
+    {
+      "probability": 0.5,
+      "item": "romod:obsidian_dust",
+      "amount": 1
+    }
+  ]
+}
