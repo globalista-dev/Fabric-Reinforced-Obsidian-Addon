@@ -7,7 +7,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ItemRegister {
 
-        static Item registerItem(String name, Item item) {
-            return Registry.register(Registry.ITEM, new Identifier(RoMod.MOD_ID, name), item);
-        }
+    static Item registerItem(String name, Item item) {
+        return Registry.register(Registry.ITEM, new Identifier(RoMod.MOD_ID, name), item);
+    }
 }

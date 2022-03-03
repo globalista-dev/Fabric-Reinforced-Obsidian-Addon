@@ -1,10 +1,8 @@
 package com.globalista.romod.block;
 
 import com.globalista.romod.RoMod;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.sound.BlockSoundGroup;
 
 import static com.globalista.romod.block.BlockRegister.registerBlock;
@@ -40,6 +38,6 @@ public class ModBlocks {
             new TintedGlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
 
     public static final Block UNCOOKED_REINFORCED_SAND = registerBlock("uncooked_reinforced_sand",
-            new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(8.5f,120.0f).breakByHand(true).sounds(BlockSoundGroup.SAND)), RoMod.ROGROUP);
+            new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(8.5f,120.0f).sounds(BlockSoundGroup.SAND)), RoMod.ROGROUP);
 
 }
