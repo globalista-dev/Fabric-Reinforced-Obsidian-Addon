@@ -32,10 +32,10 @@ public class ModBlocks {
             new ModPaneBlock(FabricBlockSettings.of(Material.METAL).strength(7.0f, 92.8f).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)), RoMod.ROGROUP);
 
     public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
-            new GlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
+            new GlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,3600000.0f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
 
     public static final Block REINFORCED_TINTED_GLASS = registerBlock("reinforced_tinted_glass",
-            new TintedGlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
+            new TintedGlassBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f,3600000.0f).nonOpaque().sounds(BlockSoundGroup.GLASS)), RoMod.ROGROUP);
 
     public static final Block UNCOOKED_REINFORCED_SAND = registerBlock("uncooked_reinforced_sand",
             new FallingBlock(FabricBlockSettings.of(Material.SOIL).strength(8.5f,120.0f).sounds(BlockSoundGroup.SAND)), RoMod.ROGROUP);
